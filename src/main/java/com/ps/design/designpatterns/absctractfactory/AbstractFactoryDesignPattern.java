@@ -1,14 +1,14 @@
-package com.ps.design.designpatterns;
+package com.ps.design.designpatterns.absctractfactory;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BuilderDesignPattern implements CommandLineRunner {
+public class AbstractFactoryDesignPattern implements CommandLineRunner {
 
     public static void main(String[] args) {
-        SpringApplication.run(BuilderDesignPattern.class, args);
+        SpringApplication.run(AbstractFactoryDesignPattern.class, args);
     }
 
     @Override

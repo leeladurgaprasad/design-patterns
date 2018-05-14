@@ -1,4 +1,4 @@
-package com.ps.design.designpatterns;
+package com.ps.design.designpatterns.observable;
 
 
 import org.springframework.boot.CommandLineRunner;
